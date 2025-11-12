@@ -1,52 +1,69 @@
-HotelStay+ — Full-Stack Hotel & Restaurant Booking Platform
+# HotelStay+
 
-HotelStay+ is a modern full-stack web application that allows users to easily browse and book hotel rooms, reserve restaurant tables, and manage bookings.
-It includes a responsive React frontend and a secure Node.js/Express backend with JWT authentication and role-based access (Admin & Customer).
+**HotelStay+** is a modern full-stack platform for booking hotel rooms and restaurant tables, featuring a responsive React interface and a secure Node.js/Express backend. It supports both Admin and Customer roles with JWT authentication and role-based access.
 
-Key Features:-
+---
 
-Hotel room browsing with images, pricing & details-
+## Key Features
 
-1.Restaurant table reservation system
-2.User authentication (Signup / Login)
-3.JWT-based session security
-4.Customer booking history
-5.Admin dashboard with statistics
-6.Fully responsive premium UI
-7. Inline CSS (no external frameworks required)
+- **Hotel room browsing**
+  - Photos, pricing, details
+- **Restaurant table reservations**
+- **User authentication**
+  - Signup & Login with JWT session security
+- **Customer booking history**
+- **Admin dashboard & statistics**
+- **Premium responsive UI**
+  - Inline CSS; no external frameworks
 
-Tech Used
+---
 
-Frontend: React (CRA), JSX, Inline CSS
-Backend: Node.js, Express.js
-Auth: JWT
-Data: In-Memory
+## Tech Stack
 
-Admin Capabilities
+- **Frontend:** React (CRA), JSX, Inline CSS
+- **Backend:** Node.js, Express.js
+- **Authentication:** JWT (JSON Web Tokens)
+- **Data:** In-memory storage
 
-1.View platform statistics
-2.Manage rooms & tables
-3.Monitor bookings
+---
 
-User Capabilities
+## User Capabilities
 
-1.Register / Login
-2.Book rooms with date selection
-3.Reserve restaurant tables
-4.View booking history
+- Register & Login
+- Book rooms by date
+- Reserve tables
+- View booking history
 
-## Run Backend
+## Admin Capabilities
+
+- View platform statistics
+- Manage rooms & tables
+- Monitor all bookings
+
+---
+
+## Getting Started
+
+### 1. Run the Backend
+
 cd server
 npm install
 npm start
-# http://localhost:4000
+# Backend runs at http://localhost:4000
 
-## Run Frontend (CRA)
+### 2. Run the Frontend
+
 cd ../client
 npm install
 npm start
-# http://localhost:3000
+# Frontend runs at http://localhost:3000
 
-### Demo credentials
-- Admin: `admin@hotel.com` / `Admin@123`
-- Or sign up a new customer.
+---
+
+## Demo Credentials
+
+- **Admin:**  
+  `admin@hotel.com` / `Admin@123`
+- *Or register as a new customer.*
+
+---
